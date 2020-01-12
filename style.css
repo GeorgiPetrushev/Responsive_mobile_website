@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: rgb(192, 192, 192);
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	overflow-wrap: break-word;
+	
+	
+}
+a{
+	text-decoration: none;
+}
+h2{
+	text-shadow:5px 5px 15px black;
+}
+ul{
+	padding-right: 30px;
+}
+li{
+	margin-bottom: 10px;
+	background-color: rgb(212, 212, 212);
+	text-decoration: none;
+	list-style-type: none;
+	padding: 5px 0;
+	border-radius: 15px;
+	
+}
+.profile{
+	padding: 30px 0px;
+}
+.about-me{
+	margin:10px 50px;
+}
+img{
+	width: 100%;
+	box-shadow: 2px 2px 15px black;
+}
+#portfolio{
+	padding-top: 20px;
+}
+.portfolio-container{
+	margin: auto;
+	
+	background-color: rgb(202, 202, 202);
+	padding-bottom: 30px;
+}
+end{
+	display:none;
+}
+li:hover{
+	background-color: white;
+	color:gray;
+	box-shadow: 3px 3px 20px black;
+}
+
+
+@media(min-width:768px){
+	
+	h2{
+		float: left;
+	}
+	
+	.georgi{
+		margin-left: 20px;
+	}
+	li{
+		font-family: 'Roboto', sans-serif;
+		display: inline-block;
+		float: right;
+		margin-right: 10px;
+		padding: 10px 30px;
+		margin-top:17px;
+		font-size: 0.7em;
+		
+	}
+	.profile{
+		display: flex;
+		
+	}
+	
+	.col{
+		margin: auto;
+		width: 42%;
+		float: left;
+		padding: 30px;
+	}
+	onlymob{
+		display:none;
+	}
+	end{
+		display: inline;
+	}
+
+}
+
+
+@media(min-width:1028px){
+	.col{
+		width:29.3333%;
+	}
+
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
